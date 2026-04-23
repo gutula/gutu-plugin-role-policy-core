@@ -4,6 +4,10 @@
 
 - `roles.grants.assign`: Governed action exported by this plugin.
 
+## Operational scenario matrix
+
+- No operational scenario catalog is exported today.
+
 ## Action-level flows
 
 ### `roles.grants.assign`
@@ -35,4 +39,5 @@ Forbidden shortcuts:
 - Direct dependencies: `auth-core`, `org-tenant-core`
 - Requested capabilities: `ui.register.admin`, `api.rest.mount`, `data.write.roles`
 - Integration model: Actions+Resources+UI
+- ERPNext doctypes used as parity references: none declared
 - Recovery ownership should stay with the host orchestration layer when the plugin does not explicitly export jobs, workflows, or lifecycle events.

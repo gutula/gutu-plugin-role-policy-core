@@ -5,6 +5,12 @@ export default definePackage({
   kind: "app",
   version: "0.1.0",
   displayName: "Role Policy Core",
+  defaultCategory: {
+    id: "user_management",
+    label: "User Management",
+    subcategoryId: "roles_permissions",
+    subcategoryLabel: "Roles & Permissions"
+  },
   description: "RBAC and ABAC policy management backbone.",
   extends: [],
   dependsOn: ["auth-core","org-tenant-core"],
