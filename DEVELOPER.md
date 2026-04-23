@@ -54,6 +54,11 @@ Owns RBAC and ABAC policy records so access decisions stay governed and inspecta
 | Field | Value |
 | --- | --- |
 | Depends On | `auth-core`, `org-tenant-core` |
+| Recommended Plugins | None |
+| Capability Enhancing | None |
+| Integration Only | None |
+| Suggested Packs | None |
+| Standalone Supported | Yes |
 | Requested Capabilities | `ui.register.admin`, `api.rest.mount`, `data.write.roles` |
 | Provides Capabilities | `roles.grants` |
 | Owns Data | `roles.grants` |
